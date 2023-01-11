@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.side-bar{
+ background: rgb(40, 39, 39);
+ backdrop-filter: blur(15px);
+ width: 280px;
+ height:100%;
+ position:fixed;
+ top: 80;
+ left: 0;
+ overflow:scroll;
+ transition: 0.6s ease;
+ transition-property: left;
+ padding-bottom: 100px;
+}
+
+.side-bar.active{
+ left: 0;
+}
+
+.side-bar .menu{
+ width: 100%;
+ margin-top: 28px;
+}
+
+.side-bar .menu .item{
+ position: relative;
+ cursor: pointer;
+}
+
+.side-bar .menu .item a{
+ color: #fff;
+ font-size: 16px;
+ text-decoration: none;
+ display: block;
+ padding: 5px 30px;
+ line-height: 60px;
+}
+
+.side-bar .menu .item a:hover{
+ background: #8621F8;
+ transition: 0.3s ease;
+}
+
+.side-bar .menu .item i{
+ margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown{
+ position: absolute;
+ right: 0;
+ margin: 20px;
+ transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu{
+ background: rgba(255, 255, 255, 0.1);
+ display: none;
+}
+
+.side-bar .menu .item .sub-menu a{
+ padding-left: 50px;
+}
+
+.rotate{
+ transform: rotate(90deg);
+}
+
+.close-btn{
+ position: absolute;
+ color: #fff;
+ font-size: 20px;
+ right: 0;
+ margin: 25px;
+ cursor: pointer;
+ display: none;
+}
+
+
+.menu-btn{
+ position: absolute;
+ color: rgb(234, 226, 226);
+ background-color: black;
+ padding: 12px 24px;
+ border-radius: 12px;
+ font-size: 20px;
+ margin: 18px;
+ cursor: pointer;
+ display: none;
+}
+
+.main{
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 50px;
+}
+
+.main h1{
+ color: rgba(255, 255, 255, 0.8);
+ font-size: 60px;
+ text-align: center;
+ line-height: 80px;
+}
+
+
+.mainn{
+    height: 510px;
+    width: 81%;
+    margin-left: 280px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+ 
+  /* background-color:blue; */
+  
+}
+.mainn .ppdf{
+   height: 96%;
+   width: 97%;
+}
+
+@media (max-width: 900px){
+ .main h1{
+   font-size: 40px;
+   line-height: 60px;
+ }
+ 
+ .mainn{
+    margin: 0;
+ }
+ .menu-btn{
+    display: block;
+    margin-top: -60px;
+    margin-left: -10px;
+ }
+ .close-btn{
+    display: block;
+
+ }
+ .side-bar{
+    left: -100%;
+    padding-bottom: 200px;
+ }
+ .mainn{
+    width: 100%;
+    margin-top: 60px;
+ }
+ .side-bar .menu{
+    margin-top: 80px;
+ }
+ .mainn .ppdf{
+   width: 100%;
+   height: 100%;
+   background-color: #fff;
+}
+}
