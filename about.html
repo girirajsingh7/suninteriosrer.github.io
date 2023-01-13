@@ -35,9 +35,9 @@
 
 .section{
 	width: 100%;
-	min-height: 82vh;
-	background-image:url('img/back.PNG');
-    background-size:cover;
+	min-height: 100vh;
+	background-image:url('img/back.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 20px;
 
@@ -48,6 +48,7 @@
 	margin:auto;
 	padding-top: 100px;
 }
+
 .content-section{
 	float: left;
 	width: 55%;
@@ -58,10 +59,9 @@
 }
 .image-section img{
 	width: 60%;
-	height: 344px;
+	height: 290px;
     border-radius: 12px;
 }
-
 .content-section .title{
 	text-transform: uppercase;
 	font-size: 28px;
@@ -69,13 +69,12 @@
 .content-section .content h3{
 	margin-top: 20px;
 	color:black;
-	font-size: 23px;
+	font-size: 21px;
 }
 .content-section .content p{
 	margin-top: 10px;
 	font-family: sans-serif;
 	font-size: 18px;
-    
 	line-height: 1.5;
 }
 .content-section .content .button{
@@ -104,10 +103,15 @@
 .content-section .social i:hover{
 	color:#3d3d3d;
 }
+
 @media screen and (max-width: 768px){
+    .section{
+        background-image: url('https://images.pexels.com/photos/2758655/pexels-photo-2758655.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    }
 	.containerrr{
-	width: 80%;
-	display: block;
+	width: 90%;
+    height: 106vh;
+	display: grid;
 	margin:auto;
 	padding-top:50px;
 }
@@ -120,13 +124,14 @@
 .image-section{
 	float:none;
 	width:100%;
+    margin: 36px;
 	
 }
 .image-section img{
 	width: 74%;
-	height: 458px;
+	height: 220px;
 	display: block;
-	margin:auto;
+	margin-top: 61px;
 }
 .content-section .title{
 	text-align: center;
@@ -163,7 +168,7 @@
                 <a href="collection.html" class="nav-item nav-link ">Collection</a>
                 <a href="about.html" class="nav-item nav-link active">About</a>            
                 <a href="contact.html" class="nav-item nav-link ">Contact</a>
-                <a href="https://wa.me/918505014102?text=I'm%20interested%20in%20your%collections" class="nav-item nav-link"><i class="bi bi-telephone-outbound me-2"></i>+91 96946 61215</a>
+                <a href="https://wa.me/919694661215?text=I'm%20interested%20in%20your%collections" class="nav-item nav-link"><i class="bi bi-telephone-outbound me-2"></i>+91 96946 61215</a>
             </div>
         </div>
     </nav>
@@ -225,12 +230,10 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="section">
             <div class="containerrr">
-                <div class="content-section">
-                    <div class="title">
-                        <h1>FOUNDER</h1>
-                    </div>
-                    <div class="content">
-                        <h3>A thinker and a perfectionist, represent the dynamic forces that shape the past, present and future of Sun Interiors.Harsh Bokadia is the founder of SUN Interiors in year 2010.Harsh has served the interior design industry with enthusiasm and creativity with latest designs. Also setup the largest Customized Wallpapers and Curtain Manufacturer in year 2015 and Importer in Udaipur</p>
+                <div class="glass-containern">
+                    <div class="inner-contentn">
+                        <span  class="titl">FOUNDER</span><br><br>
+                        <p>A thinker and a perfectionist, represent the dynamic forces that shape the past, present and future of Sun Interiors.Harsh Bokadia is the founder of SUN Interiors in year 2010.Harsh has served the interior design industry with enthusiasm and creativity with latest designs. Also setup the largest Customized Wallpapers and Curtain Manufacturer in year 2015 and Importer in Udaipur</p>
                         <!-- <div class="button">
                             <a href="">Read More</a>
                         </div> -->
@@ -251,12 +254,10 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="section">
             <div class="containerrr">
-                <div class="content-section">
-                    <div class="title">
-                        <h1>MANAGING DIRECTOR</h1>
-                    </div>
-                    <div class="content">
-                        <h3>Developing and executing the company’s business
+                <div class="glass-containern">
+                    <div class="inner-contentn">
+                        <span  class="titl">MANAGING DIRECTOR</span><br><br>
+                        <p>Developing and executing the company’s business
                             strategies. Providing strategic advice to the board
                             and chairperson. Preparing and implementing
                             comprehensive business plans to facilitate
@@ -272,12 +273,13 @@
                     </div> -->
                 </div>
                 <div class="image-section">
-                    <img class="sakshi" src="img/sakshi.PNG">
+                    <img src="img/sakshi.PNG">
                 </div>
             </div>
         </div>
         
     </div>
+  
     <!-- Team End -->
     <br><br>
     <div class="container-fluid  wow zoomIn" data-wow-delay="0.1s">

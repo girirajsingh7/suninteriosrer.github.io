@@ -16,7 +16,7 @@
 .glass-containern {
   width: 33%;
   margin: 0 auto;
-  height: 70%;
+  height: 74%;
   border-radius: 4px;
   background: #0b0c0c45;
   backdrop-filter: blur(4px);  
@@ -26,6 +26,13 @@
 }
 
 
+.containerrr .glass-containern{
+  width: 53%;
+  padding:5px ;
+  height: 270PX;
+  padding: 10px;
+
+}
 
 .mn {
   display: flex;
@@ -35,6 +42,7 @@
 
 .inner-contentn {
   flex-basis: 50%;
+  margin-top: 20px;
   padding-left:  5%;
 }
 
@@ -43,6 +51,7 @@
   text-transform: uppercase;
   line-height: 1;
   margin-bottom: 20px;
+  color: #cecece;
 }
 
 .inner-contentn p {
@@ -92,5 +101,15 @@
   }
   .inner-contentn p{
     margin-bottom: 20px;
+  }
+  
+  .containerrr .glass-containern{
+    width: 99%;
+    height: 470PX;
+    padding: 10px;
+  
+  }
+  .containerrr .titl{
+    font-size: 50px;
   }
 }
